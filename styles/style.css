@@ -1682,6 +1682,14 @@ img {
     width: 231px;
 }
 
+.anyquestions-tel input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
 @media screen and (max-width: 768px) {
     .anyquestions-tel input{
         width: 340px;
@@ -1691,7 +1699,7 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-    .anyquestions-tel input::placeholder{
+    .anyquestions-tel input::placeholder {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -1815,11 +1823,12 @@ img {
 @media screen and (max-width: 768px) {
     .adrescontacts {
         margin: 0 auto;
-        width: auto;
-        margin-bottom: 23px;
+        width: 340px;
+        margin-bottom: 46px;
         font-size: 18px;
         line-height: 25px;
         margin-top: 250px;
+        
     }
 }
 
@@ -1929,6 +1938,9 @@ img {
 }
 
 .button-footer {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
     font-style: italic;
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
