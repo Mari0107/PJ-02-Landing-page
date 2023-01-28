@@ -717,6 +717,10 @@ img {
     margin-top: 91px;
 }
 
+.text-9 {
+    color:#FFFFFF;
+}
+
 @media screen and (max-width: 768px) {
     .form-request {
        flex-direction: column;
